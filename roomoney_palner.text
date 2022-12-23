@@ -1,0 +1,46 @@
+lib:
+
+add transaction 
+	split in the midel between two roommates
+		# split between many roommates
+		# split any presentage
+
+remove transaction
+	by name
+		#by tag
+		#by date
+
+culculate total
+		# of specific tags
+		# of range of date
+		# of range of value
+		# own by rommate
+		# own to roommate
+
+order data
+	# by value
+	# by date
+	# by tage
+
+# present parts of table
+	# by range of date
+	# by range of value
+	# by tags
+
+
+
+
+
+
+data strucure
+
+			roomate_1 roommate_2
+
+tage(str)
+
+value(int)
+
+date(date)
+
+note(str)
+

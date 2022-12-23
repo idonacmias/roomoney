@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>display_all_partners</title>
+</head>
+<body>
+	<h3>display_all_partners</h3>
+	
+	{% for partner in partners %}
+ 			<h3>{{partner.name}}</h3>
+ 			<h3>{{partner.date_of_berith}}</h3>
+ 			<h3>{{partner.phone}}</h3>
+ 			<h3>{{partner.email}}</h3>
+ 			<br>
+ 			<br>
+	{% endfor %}
+
+</body>
+</html>	
